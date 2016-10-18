@@ -7,62 +7,7 @@
     "category": [
       "Volatility Indicators"
     ],
-    "description": "The Average Directional Movement Index index (ADX) was developed in 1978 by J. Welles Wilder as an indicator of trend strength in a series of prices of a financial instrument ADX will range between 0 and 100. Generally, ADX readings below 20 indicate trend weakness, and readings above 40 indicate trend strength.",
-    "fields": [
-      {
-        "name": "Period",
-        "type": "input",
-        "option_name": "period",
-        "default": 14,
-        "min": 1,
-        "max": 200
-      },
-      {
-        "name": "Stroke",
-        "type": "color",
-        "default": "#cd0a0a",
-        "option_name": "stroke"
-      },
-      {
-        "name": "Stroke width",
-        "type": "strokeWidth",
-        "default": 1,
-        "option_name": "strokeWidth"
-      },
-      {
-        "name": "Dash style",
-        "type": "dashStyle",
-        "default": "Solid",
-        "option_name": "dashStyle"
-      },
-      {
-        "name": "Applied to",
-        "type": "appliedTo",
-        "default": 0,
-        "option_name": "appliedTo"
-      },
-      {
-        "type":"levels_btn"
-      },
-      {
-        "type": "levels",
-        "default":[
-          {
-            "level":30,
-            "stroke":"red",
-            "strokeWidth":1,
-            "dashStyle":"Dash"
-          },
-          {
-            "level":70,
-            "stroke":"red",
-            "strokeWidth":1,
-            "dashStyle":"Dash"
-          }
-        ],
-        "option_name": "levels"
-      }
-    ]
+    "description": "The Average Directional Movement Index index (ADX) was developed in 1978 by J. Welles Wilder as an indicator of trend strength in a series of prices of a financial instrument ADX will range between 0 and 100. Generally, ADX readings below 20 indicate trend weakness, and readings above 40 indicate trend strength."
   },
   "ema": {
     "id": "ema",
@@ -994,57 +939,7 @@
     "category": [
       "Volatility Indicators"
     ],
-    "description": "The Double Exponential Moving Average (CKS) by Patrick Mulloy attempts to remove the inherent lag associated to Moving Averages by placing more weight on recent values.",
-    "fields": [
-      {
-        "name":"Period",
-        "type":"input",
-        "default":"10",
-        "min":1,
-        "max":200,
-        "option_name":"period"
-      },
-      {
-        "name":"Max/Min Period",
-        "type":"input",
-        "default":"20",
-        "min":1,
-        "max":200,
-        "option_name":"maxMinPeriod"
-      },
-      {
-        "name":"Multiplier",
-        "type":"input",
-        "min":1,
-        "max":50,
-        "default":3,
-        "option_name":"multiplier"
-      },
-      {
-        "name":"Long Stop Line Stroke",
-        "type":"color",
-        "default":"#57a125",
-        "option_name":"shortStopStroke"
-      },
-      {
-        "name":"Short Stop Line Stroke",
-        "type":"color",
-        "default":"#cd0a0a",
-        "option_name":"longStopStroke"
-      },
-      {
-        "name":"Stroke width",
-        "type":"strokeWidth",
-        "default":1,
-        "option_name":"strokeWidth"
-      },
-      {
-        "name":"Dash style",
-        "type":"dashStyle",
-        "default":"Solid",
-        "option_name":"dashStyle"
-      }
-    ]
+    "description": "The Double Exponential Moving Average (CKS) by Patrick Mulloy attempts to remove the inherent lag associated to Moving Averages by placing more weight on recent values."
   },
   "cc": {
     "id": "cc",
